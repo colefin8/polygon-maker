@@ -128,10 +128,10 @@ function App() {
             <p>sum of interior angles:</p>
             <p>{data[points - 3].angle * points}°</p>
           </div>
-          <div className="table-row">
+          {/* <div className="table-row">
             <p>length of line segments:</p>
             <p>{data[points - 3].length}</p>
-          </div>
+          </div> */}
           <div className="table-row">
             <p> exterior angles:</p>
             <p>{Math.trunc(360 / points)}°</p>
