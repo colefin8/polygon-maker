@@ -89,7 +89,7 @@ function App() {
           return "blue";
         } else if (points % 2 === 0) {
           return "orange";
-        } else return "green";
+        } else return "yellow";
       })
       .attr("stroke-width", 3)
       .attr("x1", (d) => scale(d.x))
